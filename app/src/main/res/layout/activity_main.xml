@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/width_types"
+        android:layout_above="@id/progrssTv"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="play" />
+
+    <TextView
+        android:id="@+id/progrssTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_above="@+id/play_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:id="@+id/encrypt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:text="Encrypt" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="50dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/confirm_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="50dp"
+        android:text="Confirm?"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/compress_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/play_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:text="Compress"/>
+</RelativeLayout>

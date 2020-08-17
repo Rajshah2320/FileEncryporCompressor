@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FileEncryptor</string>
+
+    <string-array name="width_values">
+        <item>1920</item>
+        <item>1600</item>
+        <item>1440</item>
+        <item>1400</item>
+        <item>1280</item>
+        <item>1024</item>
+        <item>960</item>
+        <item>800</item>
+        <item>640</item>
+        <item>576</item>
+        <item>480</item>
+        <item>320</item>
+        <item>160</item>
+    </string-array>
+</resources>
